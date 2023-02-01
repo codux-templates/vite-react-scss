@@ -1,0 +1,25 @@
+{
+  "name": "scss-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.0.1",
+    "@wixc3/react-board": "^2.1.3",
+    "sass": "^1.57.1",
+    "typescript": "^4.9.5",
+    "vite": "^4.0.4"
+  }
+}
