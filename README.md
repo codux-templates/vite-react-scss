@@ -1,6 +1,6 @@
 <div align="center">  
     <img height="50"src="./src/assets/codux.svg">  
-    <h1><img height="30" src="./src/assets/vite.svg"> Vite (React, SCSS, CSS Modules) template for Codux</h1>
+    <h1><img height="30" src="./src/assets/vite.svg"> Vite template for Codux</h1>
 </div>
 
 ### A Visual IDE for React Projects
@@ -11,8 +11,8 @@ This project was bootstrapped with [`Vite`](https://vitejs.dev).
 
 It includes a single React component to start your project with, a sample [`codux.config.json`](codux.config.json) with preconfigured keys, a `package.json` file to describe the project's packages and dependencies, and a folder and component structure to put everything neatly in its place.
 
-- Edit, render and compose apps that make use of React-based components.
-- Create React-based components with TypeScript, SCSS and CSS Modules support.
+- Edit, render and compose apps that make use of **`React`**-based components.
+- Create components with **`TypeScript`**, **`SCSS`** and **`CSS Modules`** support.
 - Visually edit in real-time and in an isolated environment.
 
 ### Available Scripts
