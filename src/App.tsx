@@ -36,7 +36,7 @@ function App() {
                         title="Typescript logo"
                     />
                 </a>
-                <a href="https://reactjs.org" target="_blank">
+                <a href="https://sass-lang.com/" target="_blank">
                     <ScssLogo
                         height="6em"
                         width="6em"
