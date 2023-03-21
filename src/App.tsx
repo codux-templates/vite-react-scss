@@ -2,6 +2,8 @@ import { useState } from 'react';
 import classNames from 'classnames';
 import { ReactComponent as ReactLogo } from './assets/react.svg';
 import { ReactComponent as ViteLogo } from './assets/vite.svg';
+import { ReactComponent as TypescriptLogo } from './assets/typescript.svg';
+import { ReactComponent as ScssLogo } from './assets/scss.svg';
 import styles from './App.module.scss';
 
 function App() {
@@ -26,9 +28,24 @@ function App() {
                         title="React logo"
                     />
                 </a>
+                <a href="https://www.typescriptlang.org/" target="_blank">
+                    <TypescriptLogo
+                        height="6em"
+                        width="6em"
+                        className={classNames(styles.logo, styles.ts)}
+                        title="Typescript logo"
+                    />
+                </a>
+                <a href="https://sass-lang.com/" target="_blank">
+                    <ScssLogo
+                        height="6em"
+                        width="6em"
+                        className={classNames(styles.logo, styles.scss)}
+                        title="SCSS logo"
+                    />
+                </a>
             </div>
-            <h1>Vite + React</h1>
-            <div className={styles.react}>
+            <div className={styles.card}>
                 <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
                 <p>
                     Edit <code>src/App.tsx</code> and save to test HMR
