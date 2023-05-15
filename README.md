@@ -1,5 +1,5 @@
 <div align="center">  
-    <img height="50"src="./src/assets/codux.svg">  
+    <img height="50" src="./src/assets/codux.svg">  
     <h1><img height="30" src="./src/assets/vite.svg"> Vite template for Codux</h1>
 </div>
 
