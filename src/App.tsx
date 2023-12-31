@@ -1,4 +1,3 @@
-/// <reference types="vite-plugin-svgr/client" />
 import { useState } from 'react';
 import classNames from 'classnames';
 import ReactLogo from './assets/react.svg?react';
