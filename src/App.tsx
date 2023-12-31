@@ -1,9 +1,10 @@
+/// <reference types="vite-plugin-svgr/client" />
 import { useState } from 'react';
 import classNames from 'classnames';
-import { ReactComponent as ReactLogo } from './assets/react.svg';
-import { ReactComponent as ViteLogo } from './assets/vite.svg';
-import { ReactComponent as TypescriptLogo } from './assets/typescript.svg';
-import { ReactComponent as ScssLogo } from './assets/scss.svg';
+import ReactLogo from './assets/react.svg?react';
+import ViteLogo from './assets/vite.svg?react';
+import TypescriptLogo from './assets/typescript.svg?react';
+import ScssLogo from './assets/scss.svg?react';
 import styles from './App.module.scss';
 
 function App() {
