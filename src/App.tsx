@@ -1,4 +1,6 @@
 import styles from './App.module.scss';
+import ViteSvg from './assets/vite.svg';
+import TypescriptSvg from './assets/typescript.svg';
 
 function App() {
     return (
@@ -18,8 +20,8 @@ function App() {
                     justifyContent: 'center',
                 }}
             >
-                This project is using <img src="/src/assets/vite.svg" width="12" />+
-                <img src="/src/assets/typescript.svg" width="12" />
+                This project is using <img src={ViteSvg} width="12" />+
+                <img src={TypescriptSvg} width="12" />
                 Visit vitejs.dev to learn more.
             </p>
         </div>
