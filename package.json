@@ -19,7 +19,7 @@
     "@vitejs/plugin-react": "^4.3.1",
     "@wixc3/react-board": "^3.0.0",
     "sass": "^1.77.8",
-    "typescript": "^5.5.3",
+    "typescript": "^5.5.4",
     "vite": "^5.3.4",
     "vite-plugin-svgr": "^4.2.0"
   }
