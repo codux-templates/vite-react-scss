@@ -20,7 +20,7 @@
     "@wixc3/react-board": "^3.0.1",
     "sass": "^1.77.8",
     "typescript": "^5.5.4",
-    "vite": "^5.3.5",
+    "vite": "^5.4.0",
     "vite-plugin-svgr": "^4.2.0"
   }
 }
